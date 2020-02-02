@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  background-color:yellowgreen;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#submission {
+  text-align: center;
+}
+
+#b1{
+  background-color: lightslategray;
+}
+
+div {
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* .b1 {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+} */
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
